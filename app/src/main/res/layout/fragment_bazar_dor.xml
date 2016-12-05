@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/price_taka"
+    tools:context="com.wadud.anwar.krisokerbondu.BazarDorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/dhakaKusra"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/dhakaKhusra"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dhakaPikary"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/dhakaPikary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/sylhetKusra"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/sylhetKhusra"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sylhetPikary"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/sylhetPikary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/chittagongKusra"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/chittagongKhusra"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chittagongPikary"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/chittagongPikary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/rajshahiKusra"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/rajshahiKhusra"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rajshahiPikary"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/rajshahiPikary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/barisalKusra"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/barisalKhusra"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/barisalPikary"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/barisalPikary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/displayWeb"
+        android:visibility="gone">
+
+    </WebView>
+</FrameLayout>

@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/storage"
+    tools:context="com.wadud.anwar.krisokerbondu.SongrokkonFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/songrokkon_linearLayout"
+            android:layout_width="match_parent"
+            android:paddingTop="200dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/btn_sdhaka"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/sdhaka"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_ssylhet"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="@string/ssylhet"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/btn_schittagong"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/schittagong"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_srajshahi"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="@string/srajshahi"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/btn_smymensing"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/smymensing"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_skhulna"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/skhulna"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/btn_srangpur"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/srangpur"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_sborisal"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="@string/sborisal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

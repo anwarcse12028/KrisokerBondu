@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile"
+    tools:context="com.wadud.anwar.krisokerbondu.JugajugFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/jugajug_linearLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_jdhaka"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/jdhaka"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_jsylhet"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="@string/jsylhet"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_jchittagong"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/jchittagong"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_jrajshahi"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="@string/jrajshahi"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_jmymensing"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/jmymensing"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_jkhulna"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:text="@string/jkhulna"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_jrangpur"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/jrangpur"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_jborisal"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="@string/jborisal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

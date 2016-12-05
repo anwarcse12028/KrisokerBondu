@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fosol"
+    tools:context="com.wadud.anwar.krisokerbondu.FosolFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/fosol_linearLayout"
+        android:layout_width="match_parent"
+        android:paddingTop="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+            <Button
+                android:layout_width="260sp"
+                android:id="@+id/btn_fdanadar"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/fdana"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+            <Button
+                android:layout_width="260sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_fsobji"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:text="@string/fsobji"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+
+            <Button
+                android:layout_width="260sp"
+                android:id="@+id/btn_ftel"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/ftel"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+            <Button
+                android:layout_width="260sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_fmosla"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:text="@string/fmosla"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+
+            <Button
+                android:layout_width="260sp"
+                android:id="@+id/btn_ffol"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/ffol"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+            <Button
+                android:layout_width="260sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_fdal"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:text="@string/fdal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+
+            <Button
+                android:layout_width="260sp"
+                android:id="@+id/btn_forthokari"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/fortokari"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+            <Button
+                android:layout_width="260sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_fmasrum"
+                android:layout_weight=".5"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:text="@string/fmasrum"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

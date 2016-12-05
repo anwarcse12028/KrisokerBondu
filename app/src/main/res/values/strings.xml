@@ -1,0 +1,98 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">আমাদের সম্পর্কে</string>
+    <string name="action_settings1">আপডেট </string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <string name="starred_string">Starred</string>
+    <string name="inbox_string">Inbox</string>
+    <string name="sent_mail_string">Sent mail</string>
+    <string name="draft_string">Drafts</string>
+    <string name="subheader">Subheader</string>
+    <string name="trash_string">Trash</string>
+    <string name="all_mail_string">All mails</string>
+    <string name="spam_string">Spams</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+
+    <string name="dialog">আপনি কি অ্যাপ বন্ধ করতে চান ? </string>
+    <string name="yes">হ্যাঁ </string>
+    <string name="no">না </string>
+    <string name="app_name">কৃষকের বন্ধু </string>
+    <string name="anwar">আনোয়ার হোসেন ওয়াদুদ </string>
+
+    <string name="mulPata">মূলপাতা </string>
+    <string name="bazarDor">বাজার দর </string>
+    <string name="mothsoSompod">মৎস্য সম্পদ </string>
+    <string name="fosol">ফসল </string>
+    <string name="praniSompod">গৃহপালিত পশু  </string>
+    <string name="jugajug">জরুরী পরামর্শ </string>
+    <string name="brikriBiggapon"> বিক্রি  বিজ্ঞাপন </string>
+    <string name="krishiProdukti">কৃষি প্রযুক্তি </string>
+    <string name="songrokkon">সংরক্ষণ </string>
+
+    <string name="dhakaKhusra">খুচরা মূল্য \n(ঢাকা শহর)</string>
+    <string name="dhakaPikary">পাইকারি মূল্য \n(ঢাকা শহর)</string>
+    <string name="sylhetKhusra">খুচরা মূল্য \n(সিলেট শহর)</string>
+    <string name="sylhetPikary">পাইকারি মূল্য \n(সিলেট শহর)</string>
+    <string name="chittagongKhusra">খুচরা মূল্য \n( চট্রগ্রাম  শহর)</string>
+    <string name="chittagongPikary">পাইকারি মূল্য \n(চট্রগ্রাম  শহর)</string>
+    <string name="rajsgfgfhahiKhusra">খুচরা মূল্য \n(্  )   </string>
+    <string name="rajshahiKhusra">খুচরা মূল্য \n(রাজশাহী শহর)</string>
+    <string name="rajshahiPikary">পাইকারি মূল্য \n(রাজশাহী শহর)</string>
+    <string name="barisalKhusra">খুচরা মূল্য \n( বরিশাল শহর)</string>
+    <string name="barisalPikary">পাইকারি মূল্য \n(বরিশাল শহর)</string>
+    <string name="link">LINK</string>
+    <string name="title_activity_bazar_dor_controller">BazarDorController</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fdana">দানাদার</string>
+    <string name="fsobji">সবজি </string>
+    <string name="ftel">তেল জাতীয় </string>
+    <string name="fmosla">মসলা </string>
+    <string name="ffol">ফল </string>
+    <string name="fdal">ডাল </string>
+    <string name="fortokari"> অর্থকরী ফসল </string>
+    <string name="fmasrum">মাশরুম </string>
+
+    <string name="pgoru">গরু </string>
+    <string name="psagol">ছাগল </string>
+    <string name="phas">হাঁস </string>
+    <string name="pmurgi">মুরগী </string>
+    <string name="pkobutor">কবুতর </string>
+    <string name="pmohis">মহিষ </string>
+    <string name="pkoel">কোয়েল </string>
+
+    <string name="mtelapia">তেলাপিয়া  মাছ</string>
+    <string name="mcarpmas">কার্প জাতীয় মাছ </string>
+    <string name="mpangas">পাঙ্গাশ মাছ </string>
+    <string name="msing">শিঙ , মাগুর ও কৈ মাছ</string>
+    <string name="mmola">মলা , ঢেলা  ও পুঁটি মাছ </string>
+
+    <string name="jdhaka"> ঢাকা বিভাগ </string>
+    <string name="jsylhet"> সিলেট বিভাগ </string>
+    <string name="jrajshahi">রাজশাহী বিভাগ </string>
+    <string name="jchittagong">চট্রগ্রাম বিভাগ </string>
+    <string name="jkhulna">খুলনা বিভাগ </string>
+    <string name="jrangpur">রংপুর বিভাগ</string>
+    <string name="jmymensing">ময়মনসংহ বিভাগ  </string>
+    <string name="jborisal">বরিশাল বিভাগ</string>
+
+    <string name="bsorasory">সরাসরি যোগাযোগ</string>
+    <string name="bonline">অনলাইনে  যোগাযোগ </string>
+
+    <string name="sgudamgor">( গুদাম ঘরের ঠিকানা )</string>
+    <string name="sdhaka"> ঢাকা বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="ssylhet"> সিলেট বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="srajshahi">রাজশাহী বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="schittagong">চট্রগ্রাম বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="skhulna">খুলনা বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="srangpur">রংপুর বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="smymensing">ময়মনসংহ বিভাগ  \n( গুদাম ঘরের ঠিকানা )</string>
+    <string name="sborisal">বরিশাল বিভাগ \n( গুদাম ঘরের ঠিকানা )</string>
+
+</resources>

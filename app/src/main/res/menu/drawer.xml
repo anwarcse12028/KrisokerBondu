@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mulPata"
+            android:icon="@drawable/ic_mulpata"
+            android:title="@string/mulPata" />
+        <item
+            android:id="@+id/nav_fosol"
+            android:icon="@drawable/fosol_ic"
+            android:title="@string/fosol" />
+        <item
+            android:id="@+id/nav_prani"
+            android:icon="@drawable/animal_icl"
+            android:title="@string/praniSompod" />
+        <item
+            android:id="@+id/nav_mas"
+            android:icon="@drawable/fish_icl"
+            android:title="@string/mothsoSompod" />
+        <item
+            android:id="@+id/nav_bazarDor"
+            android:icon="@drawable/taka"
+            android:title="@string/bazarDor" />
+        <item
+            android:id="@+id/nav_bikri"
+            android:icon="@drawable/bazar_ic"
+            android:title="@string/brikriBiggapon" />
+        <item
+            android:id="@+id/nav_jugajug"
+            android:icon="@drawable/mobile"
+            android:title="@string/jugajug" />
+        <item
+            android:id="@+id/nav_songrokkon"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="@string/songrokkon" />
+        <item
+            android:id="@+id/nav_projukti"
+            android:icon="@drawable/agri_tool"
+            android:title="@string/krishiProdukti" />
+    </group>
+
+
+
+
+</menu>

@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fish"
+    tools:context="com.wadud.anwar.krisokerbondu.MotsoSompodFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/motso_linearLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_mcarp"
+                android:textSize="20sp"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/mcarpmas"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_mtelapia"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="@string/mtelapia"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_mpangas"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/mpangas"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_msing"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="@string/msing"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/btn_mmola"
+                android:layout_weight=".5"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/mmola"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
